@@ -19,19 +19,19 @@ for i in range (1,51):
     opiniao = int(input("Digite sua opcao :  "))
 
 # Verifica a opiniao do entrevistado
-if opiniao == 1 :
-    excelente += 1
-    print("Resposta registrada : EXCELENTE ")
-elif opiniao == 2 :
-    bom += 2
-    print("Resposta registrada : BOM ")
-elif opiniao == 3 :
-    ruim += 3
-    print("Resposta registrada : RUIM ")
-else:
-    print("Resposta invalida ! ")
+    if opiniao == 1 :
+        excelente += 1
+        print("Resposta registrada : EXCELENTE ")
+    elif opiniao == 2 :
+        bom += 1
+        print("Resposta registrada : BOM ")
+    elif opiniao == 3 :
+        ruim += 1
+        print("Resposta registrada : RUIM ")
+    else:
+        print("Resposta invalida ! ")
 
-print("\nResultado da Pesquisa")
-print(f"Total de respostas EXCELENTE : {excelente}")
-print(f"Total de respostas BOM : {bom}")
-print(f"Total de respostas RUIM : {ruim}")
+    print("\nResultado da Pesquisa")
+    print(f"Total de respostas EXCELENTE : {excelente}")
+    print(f"Total de respostas BOM : {bom}")
+    print(f"Total de respostas RUIM : {ruim}")
