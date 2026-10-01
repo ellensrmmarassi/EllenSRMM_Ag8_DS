@@ -30,3 +30,7 @@ F-strings
 Python + Visual Studio Code
 
 Projeto desenvolvido como prática de lógica de programação e desenvolvimento de sistemas.
+
+[![Python](https://img.shields.io/badge/Python-3.x-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Status](https://img.shields.io/badge/Status-Concluído-success.svg?style=for-the-badge)]()
+[![Licença](https://img.shields.io/badge/Licença-MIT-green.svg?style=for-the-badge)]()
